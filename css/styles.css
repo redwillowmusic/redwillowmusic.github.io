@@ -76,13 +76,25 @@ body {
 }
 
 .winered {
-    color: rgb(139, 0, 0);
+    color: #8b0000;
+}
+
+.winered-button {
+    color: #fff!important;
+    background-color: #8b0000!important
 }
 
 .barkbrown {
     color: #fff!important;
-    background-color: #0F5695!important
+    background-color: #D9D72D!important
 }
-h1 {
+
+h1,
+h2,
+h3 {
     font-family: 'Raleway', sans-serif;
+}
+
+.navbar a {
+    color: #d21616;
 }
