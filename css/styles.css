@@ -52,9 +52,10 @@ body {
 }
 
 .service-banner {
+    background-size: cover;
     background-position: right;
     color: white;
-    height: 155px;
+    min-height: 155px;
     line-height: 155px;
     text-align: center
 }
