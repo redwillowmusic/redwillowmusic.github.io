@@ -56,7 +56,6 @@ body {
     background-position: right;
     color: white;
     min-height: 155px;
-   
     text-align: center
 }
 
@@ -86,8 +85,9 @@ body {
 }
 
 .barkbrown {
-    color: #fff!important;
-    background-color: #D9D72D!important
+    color: #d21616!important;
+    background-color: #D9D72D!important;
+    border-color: #d21616!important;
 }
 
 h1,
