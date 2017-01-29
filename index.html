@@ -23,7 +23,7 @@
 <body>
 
     <!-- Sidenav/menu -->
-    <nav class="w3-sidenav w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold" id="mySidenav">
+    <nav class="w3-sidenav w3-red w3-collapse w3-top w3-large w3-padding w3-animate-left" style="z-index:3;width:300px;font-weight:bold" id="mySidenav">
         <br>
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-padding-xlarge w3-hide-large w3-display-topleft w3-hover-white" style="width:100%;font-size:22px">Close Menu</a>
         <div class="w3-container">
@@ -38,7 +38,7 @@
         <a href="#contact" onclick="w3_close()" class="w3-padding w3-hover-white">Contact</a>
     </nav>
     <!-- Top menu on small screens -->
-    <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding w3-animate-top">
         <a href="javascript:void(0)" class="w3-btn w3-red w3-border w3-border-white w3-margin-right" onclick="w3_open()">☰</a>
         <span>RedWillowMusic</span>
     </header>
@@ -47,7 +47,7 @@
     <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
     <!-- !PAGE CONTENT! -->
-    <div id="home" class="w3-main" style="margin-left:340px;margin-right:40px">
+    <div id="home" class="w3-main w3-animate-right" style="margin-left:340px;margin-right:40px">
 
         <!-- Header -->
         <div class="w3-container" style="margin-top:80px" id="showcase">
@@ -74,7 +74,7 @@
         </div>
         <!-- Testimonials -->
 
-        <div class="w3-row">
+        <div id="testimonials" class="w3-row">
 
             <div class="w3-col m4 l4 w3-container">
 
