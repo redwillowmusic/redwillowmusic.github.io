@@ -76,18 +76,18 @@ body {
 }
 
 .winered {
-    color: #d21616;
+    color: #972929;
 }
 
 .winered-button {
     color: #fff!important;
-    background-color: #d21616!important
+    background-color: #972929!important
 }
 
 .barkbrown {
-    color: #d21616!important;
-    background-color: #D9D72D!important;
-    border-color: #d21616!important;
+    color: #972929!important;
+    background-color: #87A63F!important;
+    border-color: #972929!important;
 }
 
 h1,
@@ -97,12 +97,12 @@ h3 {
 }
 
 .navbar a {
-    color: #d21616;
+    color: #972929;
 }
 
 .hr-dividers {
     width: 50px;
-    border: 5px solid #d21616;
+    border: 5px solid #972929;
 }
 
 .address {
