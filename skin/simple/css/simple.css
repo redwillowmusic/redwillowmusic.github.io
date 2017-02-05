@@ -30,7 +30,6 @@
 .jp-next {
     width: 28px;
     height: 28px;
-    margin-top: 6px;
 }
 
 .jp-stop {
@@ -67,7 +66,7 @@
 
 .jp-audio .jp-progress {
     top: 32px;
-    height: 15px;
+    height: 28px;
 }
 
 .jp-audio .jp-type-single .jp-progress {
@@ -77,7 +76,7 @@
 
 .jp-audio .jp-type-playlist .jp-progress {
     left: 166px;
-    width: 130px;
+    width: 100%;
 }
 
 .jp-video .jp-progress {
@@ -211,7 +210,6 @@
 
 .jp-current-time,
 .jp-duration {
-    width: 60px;
     font-size: .64em;
     font-style: oblique;
 }
