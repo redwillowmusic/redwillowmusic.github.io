@@ -1,3 +1,12 @@
+.jp-controls button {
+    display: block;
+    float: left;
+    overflow: hidden;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+}
+
 .jp-play {
     width: 40px;
     height: 40px;
@@ -50,4 +59,55 @@
 
 .jp-next:focus {
     background: url("../image/jplayer.blue.monday.jpg") -29px -141px no-repeat;
+}
+
+.jp-mute,
+.jp-volume-max {
+    width: 18px;
+    height: 15px;
+}
+
+.jp-volume-max {
+    left: 74px;
+}
+
+.jp-mute {
+    background: url("../image/jplayer.blue.monday.jpg") 0 -170px no-repeat;
+}
+
+.jp-mute:focus {
+    background: url("../image/jplayer.blue.monday.jpg") -19px -170px no-repeat;
+}
+
+.jp-state-muted .jp-mute {
+    background: url("../image/jplayer.blue.monday.jpg") -60px -170px no-repeat;
+}
+
+.jp-state-muted .jp-mute:focus {
+    background: url("../image/jplayer.blue.monday.jpg") -79px -170px no-repeat;
+}
+
+.jp-volume-max {
+    background: url("../image/jplayer.blue.monday.jpg") 0 -186px no-repeat;
+}
+
+.jp-volume-max:focus {
+    background: url("../image/jplayer.blue.monday.jpg") -19px -186px no-repeat;
+}
+
+.jp-volume-bar {
+    position: absolute;
+    overflow: hidden;
+    background: url("../image/jplayer.blue.monday.jpg") 0 -250px repeat-x;
+    top: 5px;
+    left: 22px;
+    width: 46px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.jp-volume-bar-value {
+    background: url("../image/jplayer.blue.monday.jpg") 0 -256px repeat-x;
+    width: 0px;
+    height: 5px;
 }
