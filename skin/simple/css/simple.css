@@ -150,7 +150,7 @@
 
 .jp-volume-bar {
     overflow: hidden;
-    background: url("../image/jplayer.blue.monday.jpg") 0 -250px repeat-x;
+    background: #e7ebed;
     top: 5px;
     left: 22px;
     width: 46px;
@@ -159,7 +159,7 @@
 }
 
 .jp-volume-bar-value {
-    background: url("../image/jplayer.blue.monday.jpg") 0 -256px repeat-x;
+    background: #972929;
     width: 0px;
     height: 5px;
 }

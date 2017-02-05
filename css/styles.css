@@ -9,6 +9,10 @@ body {
     font-family: 'Taviraj', serif;
 }
 
+button:focus {
+    outline-color: #972929;
+}
+
 #background {
     position: absolute;
     top: 0px;
