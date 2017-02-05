@@ -1,10 +1,9 @@
 .jp-controls button {
     display: block;
     float: left;
-    overflow: hidden;
-    text-indent: -9999px;
     border: none;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .jp-play {
@@ -12,9 +11,7 @@
     height: 40px;
 }
 
-.jp-play {
-    background: url("../image/jplayer.blue.monday.jpg") 0 0 no-repeat;
-}
+.jp-play {}
 
 .jp-play:focus {
     background: url("../image/jplayer.blue.monday.jpg") -41px 0 no-repeat;
@@ -45,17 +42,13 @@
     background: url("../image/jplayer.blue.monday.jpg") -29px -83px no-repeat;
 }
 
-.jp-previous {
-    background: url("../image/jplayer.blue.monday.jpg") 0 -112px no-repeat;
-}
+.jp-previous {}
 
 .jp-previous:focus {
     background: url("../image/jplayer.blue.monday.jpg") -29px -112px no-repeat;
 }
 
-.jp-next {
-    background: url("../image/jplayer.blue.monday.jpg") 0 -141px no-repeat;
-}
+.jp-next {}
 
 .jp-next:focus {
     background: url("../image/jplayer.blue.monday.jpg") -29px -141px no-repeat;
@@ -231,8 +224,6 @@
 
 .jp-duration {
     float: left;
-    
-   
     cursor: pointer;
 }
 
