@@ -118,16 +118,12 @@ hr.gradientline {
     height: 1px;
     background-image: linear-gradient(to right, rgba(210, 22, 22, 0), rgba(210, 22, 22, 0.75), rgba(210, 22, 22, 0));
 }
-.jp-jplayer img{
-    width:100%!important;
+
+.jp-jplayer img {
+    width: 100%!important;
 }
 
-.w3-display-bottom {position:absolute;bottom:0}
-
-.jp-time-division {
-        float: left;
-    display: inline;
-    cursor: default;
-    font-size: .64em;
-    font-style: oblique;
+.w3-display-bottom {
+    position: absolute;
+    bottom: 0
 }

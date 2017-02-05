@@ -13,17 +13,11 @@
 
 .jp-play {}
 
-.jp-play:focus {
-    background: url("../image/jplayer.blue.monday.jpg") -41px 0 no-repeat;
-}
+.jp-play:focus {}
 
-.jp-state-playing .jp-play {
-    background: url("../image/jplayer.blue.monday.jpg") 0 -42px no-repeat;
-}
+.jp-state-playing .jp-play {}
 
-.jp-state-playing .jp-play:focus {
-    background: url("../image/jplayer.blue.monday.jpg") -41px -42px no-repeat;
-}
+.jp-state-playing .jp-play:focus {}
 
 .jp-stop,
 .jp-previous,
@@ -43,15 +37,11 @@
 
 .jp-previous {}
 
-.jp-previous:focus {
-    background: url("../image/jplayer.blue.monday.jpg") -29px -112px no-repeat;
-}
+.jp-previous:focus {}
 
 .jp-next {}
 
-.jp-next:focus {
-    background: url("../image/jplayer.blue.monday.jpg") -29px -141px no-repeat;
-}
+.jp-next:focus {}
 
 
 /* @end */
@@ -87,14 +77,14 @@
 }
 
 .jp-seek-bar {
-    background: url("../image/jplayer.blue.monday.jpg") 0 -202px repeat-x;
+    background: #e7ebed;
     width: 0px;
     height: 100%;
     cursor: pointer;
 }
 
 .jp-play-bar {
-    background: url("../image/jplayer.blue.monday.jpg") 0 -218px repeat-x;
+    background: #972929;
     width: 0px;
     height: 100%;
 }
@@ -132,42 +122,27 @@
 }
 
 .jp-volume-controls button {
-    overflow: hidden;
-    text-indent: -9999px;
     border: none;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .jp-mute,
-.jp-volume-max {
-    width: 18px;
-    height: 15px;
-}
+.jp-volume-max {}
 
 .jp-volume-max {
     left: 74px;
-    
 }
 
-.jp-mute {
-   
-}
+.jp-mute {}
 
-.jp-mute:focus {
-    background: url("../image/jplayer.blue.monday.jpg") -19px -170px no-repeat;
-}
+.jp-mute:focus {}
 
-.jp-state-muted .jp-mute {
-    background: url("../image/jplayer.blue.monday.jpg") -60px -170px no-repeat;
-}
+.jp-state-muted .jp-mute {}
 
-.jp-state-muted .jp-mute:focus {
-    background: url("../image/jplayer.blue.monday.jpg") -79px -170px no-repeat;
-}
+.jp-state-muted .jp-mute:focus {}
 
-.jp-volume-max {
- 
-}
+.jp-volume-max {}
 
 .jp-volume-max:focus {
     background: url("../image/jplayer.blue.monday.jpg") -19px -186px no-repeat;
@@ -210,12 +185,14 @@
 }
 
 .jp-current-time,
-.jp-duration {
+.jp-duration,
+.jp-time-division {
     font-size: .64em;
     font-style: oblique;
 }
 
-.jp-current-time {
+.jp-current-time,
+.jp-time-division {
     float: left;
     display: inline;
     cursor: default;
