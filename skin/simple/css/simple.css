@@ -146,10 +146,11 @@
 
 .jp-volume-max {
     left: 74px;
+    
 }
 
 .jp-mute {
-    background: url("../image/jplayer.blue.monday.jpg") 0 -170px no-repeat;
+   
 }
 
 .jp-mute:focus {
@@ -165,7 +166,7 @@
 }
 
 .jp-volume-max {
-    background: url("../image/jplayer.blue.monday.jpg") 0 -186px no-repeat;
+ 
 }
 
 .jp-volume-max:focus {

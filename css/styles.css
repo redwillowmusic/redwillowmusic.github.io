@@ -123,3 +123,11 @@ hr.gradientline {
 }
 
 .w3-display-bottom {position:absolute;bottom:0}
+
+.jp-time-division {
+        float: left;
+    display: inline;
+    cursor: default;
+    font-size: .64em;
+    font-style: oblique;
+}
