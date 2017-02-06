@@ -83,6 +83,10 @@ button:focus {
     color: #972929;
 }
 
+.w3-input {
+    background-color: #EDEC9F!important;
+}
+
 .winered-button {
     color: #fff!important;
     background-color: #972929!important
