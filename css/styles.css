@@ -88,10 +88,15 @@ button:focus {
     background-color: #972929!important
 }
 
-.barkbrown {
+.barkbrown,
+button.barkbrown {
     color: #972929!important;
     background-color: #EDEC9F!important;
     border-color: #972929!important;
+}
+
+button.barkbrown:hover {
+    border-style: dotted!important;
 }
 
 h1,
