@@ -1,6 +1,5 @@
 .jp-controls button {
-    display: block;
-    float: left;
+    display: inline-block;
     border: none;
     cursor: pointer;
     background-color: transparent;
