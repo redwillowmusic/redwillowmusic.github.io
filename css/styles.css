@@ -136,3 +136,83 @@ hr.gradientline {
     position: absolute;
     bottom: 0
 }
+
+.cards {}
+
+.cards .card {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+}
+
+.cards .card .card-header {
+    position: relative;
+}
+
+.cards .card .card-header button.card-expand {
+    position: absolute;
+    right: 16px;
+    top: 0;
+    line-height: 10px;
+    vertical-align: middle;
+    height: 39px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: grey;
+}
+
+.cards .card .card-header button.card-expand:hover {
+    background-color: #F9F9F9;
+}
+
+.cards .card .card-header button.card-expand .expand {
+    display: block;
+}
+
+.cards .card .card-header button.card-expand .close {
+    display: none;
+}
+
+.cards .card .card-footer {
+    border-top: 1px solid #eee;
+    text-transform: uppercase;
+}
+
+.cards .card .card-footer a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.cards .card .card-inner {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.cards .card.expanded {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.cards .card.expanded .card-inner {
+    max-height: 1300px;
+}
+
+.cards .card.expanded button.card-expand .expand {
+    display: none;
+}
+
+.cards .card.expanded button.card-expand .close {
+    display: block;
+}
+
+.cards .card.expanded .card-header {
+    border-bottom: 1px solid lightgrey;
+}
+
+.card-header {
+    cursor: pointer;
+}

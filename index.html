@@ -330,23 +330,51 @@
 
         <!-- The Team -->
         <div class="w3-row-padding ">
-            <div class="w3-col m4 w3-margin-bottom ">
-                <div class="w3-light-grey ">
+
+            <div class="w3-col m4 w3-margin-bottom cards">
+                <div class="card w3-card-2 w3-light-grey">
                     <img src="/images/team/willp.jpg " alt="Will " style="width:100% ">
-                    <div class="w3-container ">
+                    <div class='card-header w3-container'>
                         <h3 class="winered ">Will Padgett</h3>
                         <p class="w3-opacity ">Producer, Arranger, Pianist</p>
-
+                        <button class='card-expand'>
+                            <i class="material-icons expand fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="material-icons close fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class='card-inner'>
+                        <div class='card-body w3-container'>
+                            <h4>Bio:</h4>
+                            <p>Sought-after jazz and folk multi-instrumentalist and producer from Rochester NY. Worked under Grammy Award-winning engineer Steve Remote on live broadcasts, including the Newport Folk and Jazz Festivals and CBS’s Early Morning.</p>
+                            <h4>Credits:</h4>
+                            <p>Solomon Douglas - "Aint No School Like the Old School"</p>
+                            <p>Gnarly Parkers - "Hop Heads"</p>
+                            <p>Gordon Webster - "Live in Rochester"</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="w3-col m4 w3-margin-bottom ">
-                <div class="w3-light-grey ">
+
+            <div class="w3-col m4 w3-margin-bottom cards">
+                <div class="card w3-card-2 w3-light-grey">
                     <img src="/images/team/erich.jpg " alt="Eric " style="width:100% ">
-                    <div class="w3-container ">
+                    <div class='card-header w3-container'>
                         <h3 class="winered ">Eric Heveron-Smith</h3>
                         <p class="w3-opacity ">Audio Engineering, Asst Producer</p>
-
+                        <button class='card-expand'>
+                            <i class="material-icons expand fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="material-icons close fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class='card-inner'>
+                        <div class='card-body w3-container'>
+                            <h4>Bio:</h4>
+                            <p>Sought-after jazz and folk multi-instrumentalist and producer from Rochester NY. Worked under Grammy Award-winning engineer Steve Remote on live broadcasts, including the Newport Folk and Jazz Festivals and CBS’s Early Morning.</p>
+                            <h4>Credits:</h4>
+                            <p><a href="http://www.allmusic.com/album/aint-no-school-like-the-old-school-mw0002537303" target="_blank">Solomon Douglas - "Aint No School Like the Old School"</a></p>
+                            <p>Gnarly Parkers - "Hop Heads"</p>
+                            <p>Gordon Webster - "Live in Rochester"</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -433,7 +461,6 @@
                             <li>3x Shure sm57’s, 2x sm58’s</li>
                             <li>Tascam dr-2d</li>
                         </ul>
-
                         <span>Inputs &amp; Monitoring:</span>
                         <ul>
                             <li>16 Scarlett preamps, 4 separate monitor mixes</li>
@@ -441,8 +468,9 @@
 
                         <p>The large, private back patio is nice for quiet breaks. You are welcome to use the newly renovated kitchen, gas grill, full guest bathroom, and multi-arcade machine!</p>
                     </div>
-                    <div class="w3-col m6 l6 w3-panel ">
-                        <img style="height:100%" src="images/rws/closet.jpg">
+                    <div class="w3-col m6 l6 ">
+                        <img class="w3-panel" style="height:100%" src="images/rws/closet.jpg">
+                        <img class="w3-container" style="width:100%" src="images/rws/organ.jpg">
                     </div>
                 </div>
             </div>
@@ -551,7 +579,17 @@
             });
         });
     </script>
+    <script>
+        $(document).ready(function () {
 
+            $('.card-header').click(function () {
+                $(this).parent().toggleClass('expanded');
+            });
+
+            var cardHeight = $('.card.expanded').innerHeight();
+            $('.card.expanded .card-inner').css('max-height', cardHeight);
+        });
+    </script>
 </body>
 
 </html>
