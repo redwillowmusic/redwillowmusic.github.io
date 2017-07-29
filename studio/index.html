@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RedWillow Music</title>
+    <!--TODO add description and keywords-->
+    <meta name="description" content="RedWillow Music isn't just another recording studio; it's a family of artists, musicians and producers, prioritizing creativity in performance and arrangement.">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj:300" rel="stylesheet">
+    <!--<link type="text/css" href="/skin/blue.monday/css/jplayer.blue.monday.css" rel="stylesheet" />-->
+    <link type="text/css" href="skin/simple/css/simple.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="js/add-on/jplayer.playlist.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            new jPlayerPlaylist({
+                jPlayer: "#jquery_jplayer_1",
+                cssSelectorAncestor: "#jp_container_1"
+            }, [
+
+                {
+                    title: "Big Ass World",
+                    m4a: "music/hopheads/02BigAssWorld.m4a",
+                    artist: "Gnarly Parkers",
+                    poster: "images/gnarly-parkers.jpg"
+		},
+                {
+                    title: "Spin Me Minnie",
+                    m4a: "music/hopheads/01SpinMeMinnie.m4a",
+                    artist: "Gnarly Parkers",
+                    album: "Hop Heads",
+                    poster: "images/gnarly-parkers.jpg"
+
+		},
+                {
+                    title: "Swindlin Eyes",
+                    m4a: "music/hopheads/03SwindlinEyes.m4a",
+                    artist: "Gnarly Parkers",
+                    poster: "images/gnarly-parkers.jpg"
+		},
+                {
+                    title: "Sammy Shake",
+                    m4a: "music/hopheads/04SammyShake.m4a",
+                    artist: "Gnarly Parkers",
+                    poster: "images/gnarly-parkers.jpg"
+		},
+                {
+                    title: "Dream of You",
+                    m4a: "music/hopheads/05DreamofYou.m4a",
+                    artist: "Gnarly Parkers",
+                    poster: "images/gnarly-parkers.jpg"
+		},
+                {
+                    title: "Hop Head",
+                    m4a: "music/hopheads/06HopHead.m4a",
+                    artist: "Gnarly Parkers",
+                    poster: "images/gnarly-parkers.jpg"
+		}
+	], {
+                playlistOptions: {
+                    loopOnPrevious: true
+                },
+                loop: true,
+                swfPath: "js",
+                supplied: "ogv, m4a",
+                wmode: "window",
+                useStateClassSkin: true,
+                autoBlur: false,
+                smoothPlayBar: true,
+                keyEnabled: false,
+                size: {
+                    width: "auto",
+                    height: "auto"
+
+                },
+            });
+
+            $('.jp-playlist').hide();
+            $('.jp-toggles').hide();
+            $('.jp-details').show();
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Sidenav/menu -->
+    <nav class="w3-sidenav barkbrown w3-collapse w3-top w3-large w3-padding w3-animate-left navbar" style="z-index:3;width:300px;font-weight:bold" id="mySidenav">
+        <br>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-padding-xlarge w3-hide-large w3-display-topleft w3-hover-white" style="width:100%;font-size:22px">Close Menu</a>
+        <div class="w3-container">
+            <img class="w3-padding-64" src="images/logo.png" style="width:100%;">
+
+        </div>
+        <a href="#home" onclick="w3_close()" class="w3-padding w3-hover-white">Home</a>
+        <a href="#studio" onclick="w3_close()" class="w3-padding w3-hover-white">The Studio</a>
+        <a href="#team" onclick="w3_close()" class="w3-padding w3-hover-white">The Team</a>
+        <a href="#media" onclick="w3_close()" class="w3-padding w3-hover-white">Media</a>
+        <a href="#contact" onclick="w3_close()" class="w3-padding w3-hover-white">Contact</a>
+    </nav>
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large barkbrown w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-btn barkbrown w3-border w3-border-white w3-margin-right" onclick="w3_open()">☰</a>
+        <img style="height:30px" src="images/logo-notext.png">
+        <span>Red<span style="color:black">WillowMusic</span></span>
+    </header>
+
+    <!-- Overlay effect when opening sidenav on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div id="home" class="w3-main w3-animate-right" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <div class="w3-container" style="margin-top:80px" id="showcase">
+            <h1 style="font-family:'Taviraj', serif" class="w3-xxxlarge"><b>Turn your ideas into performances.</b></h1>
+            <hr class="w3-round gradientline">
+
+
+        </div>
+        <div id="background"></div>
+        <div class="w3-row">
+            <div class="w3-col m8 l8 w3-container">
+
+                <p>Redwillow Studio is fast becoming known as a flexible, well-equipped space to record tracks on a budget in the South Nashville/12th South area. With its uniquely intimate live room, fully isolated booth and stress-free atmosphere, bands and songwriters consistently leave feeling inspired, pleased with the results of their labor.</p>
+            </div>
+            <div class="w3-col m4 l4 w3-container  w3-center">
+                <div class="w3-row winered ">
+                    <h1 class="w3-xlarge"><b>Let's talk!</b></h1>
+                </div>
+
+                <div class="w3-row w3-xxlarge w3-padding-bottom">
+                    <span>615-496-6886</span>
+                </div>
+            </div>
+
+        </div>
+        <!-- Testimonials -->
+        <hr class="gradientline">
+        <div id="testimonials" class="w3-row">
+
+            <div class="w3-col m4 l4 w3-container">
+
+                <img src="images/testimonials/anna.jpg" style="width:100%;">
+                <p class="testimonial">"Will's composition and arranging abilities astound me. He's able to convert my often vague musical ideas into full compositional foundations in moments. His vast knowledge of different musical styles reverberate throughout his unique projects. He's great!"</p>
+                <div class="w3-right">
+                    <span><b>-Anna Arata | singer, songwriter &amp; bandleader</b></span>
+                </div>
+            </div>
+            <div class="w3-col  m4 l4  w3-container">
+
+                <img src="images/testimonials/daniel.jpg" style="width:100%;">
+                <p class="testimonial">
+                    "If you're ready to take your project from the drawing board and make it a reality, I definitely recommend working with Will.. Positive-minded and forward-thinking, he is ready to help you overcome any obstacles or uncertainty you may be facing regarding achieving your musical goals. It was a pleasure recording my project with him."
+                </p>
+                <span><b>-Daniel Pendergraft | pianist, composer &amp; poet</b></span>
+            </div>
+            <div class="w3-col  m4 l4  w3-container">
+
+                <img src="images/testimonials/ryan.jpg" style="width:100%;">
+                <p class="testimonial">"Will has a remarkably creative mind. His broad background in arranging and composition give him a unique edge, enabling him to realize songs to their full potential. I've had a spectacular time writing and performing with Will and highly recommend him."</p>
+                <span><b>-Ryan Leet | songwriter, guitarist &amp; singer</b></span>
+            </div>
+        </div>
+
+
+
+
+        <!-- The Studio -->
+        <div class=" " id="studio" style="margin-top:75px ">
+            <div class="w3-container ">
+                <h1 class="w3-xxxlarge winered "><b>The Studio</b></h1>
+
+                <hr class="w3-round gradientline ">
+                <div class="w3-row ">
+                    <div class="w3-col m6 l6 w3-panel">
+                        <h2>RedWillow Studio</h2>
+                        <a class="address " target="_blank " href="https://goo.gl/maps/ypSHfTBNFLC2 ">
+                            <p><b>817 Battlefield Dr, Nashville TN 37204</b></p>
+                        </a>
+
+                        <div class="w3-text-grey w3-xlarge ">
+                            <a href="https://www.facebook.com/redwillowstudio " target="_blank " class="w3-hover-text-white "><i class="fa fa-facebook-official "></i></a>
+                            <a href="https://plus.google.com/109772749282169535342 " target="_blank " class="w3-hover-text-white "><i class="fa fa-google-plus "></i></a>
+                            <a href="https://www.youtube.com/user/mellowords " target="_blank " class="w3-hover-text-white "><i class="fa fa-youtube-play "></i></a>
+                            <a href="https://www.linkedin.com/in/willpadgettmusic?trk=hp-identity-photo " target="_blank " class="w3-hover-text-white "><i class="fa fa-linkedin "></i></a>
+                            <a href="https://twitter.com/redwillowmusic " target="_blank " class="w3-hover-text-white "><i class="fa fa-twitter "></i></a>
+
+                        </div>
+                        <p>Redwillow Studio is a project studio with the space, equipment and inputs to record professional-quality tracks in a low-pressure environment, with attractive hourly and day rates. Engineer is included.</p>
+                        <p>RedWillow Studio is an excellent choice for:</p>
+                        <ul>
+                            <li>Band rehearsal demos</li>
+                            <li>Audition tapes</li>
+                            <li>Music video performance</li>
+                            <li>Overdubs</li>
+                        </ul>
+
+                        <span>Keyboards:</span>
+                        <ul>
+                            <li>5’2” Boston baby grand piano</li>
+                            <li>Korg Stage Vintage keyboard</li>
+                            <li>1958 Hammond M3 organ</li>
+                            <li>Novation Ultranova DCO synthesizer</li>
+                            <li>Industry-standard software synths (incl. Omnisphere, Massive, Absynth, Reaktor, Albion, Zebra)</li>
+                        </ul>
+
+                        <span>Microphones:</span>
+                        <ul>
+                            <li>2x Shure ksm44</li>
+                            <li>2x Rode nt5’s</li>
+                            <li>Sennheiser MK 8</li>
+                            <li>Shure sm7b</li>
+                            <li>3x Shure sm57’s, 2x sm58’s</li>
+                            <li>2x Sennheiser e835’s</li>
+                            <li>Electro-Voice ND/868</li>
+                            <li>Tascam dr-2d</li>
+                        </ul>
+                        <span>Inputs &amp; Monitoring:</span>
+                        <ul>
+                            <li>MOTU 1248 Audio Interface (32 inputs & outputs)</li>
+                            <li>Focusrite ISA One preamp</li>
+                            <li>KRK Rokit 6 nearfield monitors with KRK 10s subwoofer</li>
+                            <li>ATH-M50 tracking/mixing headphones</li>
+                            <li>Shure SRH440 tracking headphones</li>
+                            <li>16 Scarlett preamps, 4 separate monitor mixes
+                            </li>
+                        </ul>
+                        <span>Effects &amp; Processing:</span>
+                        <ul>
+
+                            <li>(2) dbx160a rack compressors</li>
+                            <li>“The Glue” SSL-style compressor</li>
+                            <li>Solid Mix series by Native Instruments</li>
+                            <li>Valhalla Room reverb</li>
+                            <li>Valhalla Vintage Verb</li>
+                            <li>Logic X plugin library</li>
+                            <li>Full Soundtoys FX suite</li>
+                            <li>Guitar Rig 5
+                            </li>
+                        </ul>
+                        <p>The large, private back patio is nice for quiet breaks.Patrons are welcome to use the kitchen and grill. A full band is a happy band!</p>
+                    </div>
+                    <div class="w3-col m6 l6 ">
+                        <img class="w3-panel" style="height:100%" src="images/rws/vocalbooth.jpg">
+                        <img class="w3-container" style="width:100%" src="images/rws/desk.jpg">
+                        <img class="w3-panel" style="width:100%" src="images/rws/deskcorner.jpg">
+                        <img class="w3-panel" style="width:100%" src="images/rws/rack.jpg">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w3-row">
+                <div class="w3-col m6 l6 w3-panel">
+                    <img style="width:100%" src="images/rws/rooma.jpg">
+                </div>
+                <div class="w3-col m6 l6 w3-panel">
+                    <img style="width:100%" src="images/rws/roomb.jpg">
+                </div>
+            </div>
+            <hr style="width:100%;border2px" class="w3-round gradientline">
+
+        </div>
+        <!-- The Team -->
+        <div class="w3-container " id="team" style="margin-top:75px ">
+            <h1 class="w3-xxxlarge winered "><b>The Team</b></h1>
+            <hr class="w3-round gradientline ">
+
+
+        </div>
+
+        <!-- The Team -->
+        <div class="w3-row-padding ">
+
+            <div class="w3-col m4 w3-margin-bottom cards">
+                <div class="card w3-card-2 w3-light-grey">
+                    <img src="images/team/willp.jpg " alt="Will " style="width:100% ">
+                    <div class='card-header w3-container'>
+                        <h3 class="winered ">Will Padgett</h3>
+                        <p class="w3-opacity ">Producer, Arranger, Pianist</p>
+                        <button class='card-expand'>
+                            <i class="material-icons expand fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="material-icons close fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class='card-inner'>
+                        <div class='card-body w3-container'>
+                            <h4>Bio:</h4>
+                            <p>Born-and-raised Nashville native; Will has been performing, composing, and producing music from a young age. His unique sound is a blend of refined jazz and classical with rootsy soul and Americana styles. Works part-time as a vocal accompanist at Belmont University’s School of Music; was bandleader of a retired top regional swing band (Gnarly Parkers); and plays jazz clubs and songwriter nights all over Nashville. His experience in the studio and on stage is an invaluable resource for recording, arranging, and producing any project.</p>
+                            <h4>Credits:</h4>
+                            <p><a href="https://itunes.apple.com/us/album/hop-heads-ep/id1031378634" target="_blank">Gnarly Parkers - "Hop Heads"</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-col m4 w3-margin-bottom cards">
+                <div class="card w3-card-2 w3-light-grey">
+                    <img src="images/team/erich.jpg " alt="Eric " style="width:100% ">
+                    <div class='card-header w3-container'>
+                        <h3 class="winered ">Eric Heveron-Smith</h3>
+                        <p class="w3-opacity ">Audio Engineering, Asst Producer</p>
+                        <button class='card-expand'>
+                            <i class="material-icons expand fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="material-icons close fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class='card-inner'>
+                        <div class='card-body w3-container'>
+                            <h4>Bio:</h4>
+                            <p>Sought-after jazz and folk multi-instrumentalist and producer from Rochester NY. Worked under Grammy Award-winning engineer Steve Remote on live broadcasts, including the Newport Folk and Jazz Festivals and CBS’s Early Morning.</p>
+                            <h4>Credits:</h4>
+                            <p><a href="http://www.allmusic.com/album/aint-no-school-like-the-old-school-mw0002537303" target="_blank">Solomon Douglas - "Aint No School Like the Old School"</a></p>
+                            <p><a href="https://itunes.apple.com/us/album/hop-heads-ep/id1031378634" target="_blank">Gnarly Parkers - "Hop Heads"</a></p>
+                            <p><a href="https://www.cdbaby.com/cd/gordonwebster12" target="_blank">Gordon Webster - "Live in Rochester"</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-margin-bottom cards">
+                <div class="card w3-card-2 w3-light-grey">
+                    <img src="images/team/andrewc.png " alt="Andrew " style="width:100% ">
+                    <div class='card-header w3-container'>
+                        <h3 class="winered ">Andrew Conner</h3>
+                        <p class="w3-opacity ">Audio Engineering, Asst Producer</p>
+                        <button class='card-expand'>
+                            <i class="material-icons expand fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="material-icons close fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class='card-inner'>
+                        <div class='card-body w3-container'>
+
+                            <h4>Bio:</h4>
+                            <p>Producer and recording/mix engineer working out of his studio, Iron Oak Recording, in Nashville Tennessee. Has worked on records for Nashville up-and-comers such as Taylor Noelle’s “Out of My System,” Rand’s “Blame It on the Internet,” and Stephen Day’s “Undergrad Romance and the Moses in Me” – the opening track of which reached #2 globally on Spotify’s Viral 50 charts</p>
+                            <h4>Credits:</h4>
+                            <p><a href="https://play.spotify.com/album/5JRUYE7FR5cNqJ4rjA9y4Q?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank">Taylor Noel - "Out of My System"</a></p>
+                            <p><a href="https://play.spotify.com/album/2LqcAd3T15II5WkwIXgvAB?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank">Rand - "Blame It On The Internet"</a></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding ">
+
+            <div class="w3-col m4 w3-margin-bottom cards">
+                <div class="card w3-card-2 w3-light-grey">
+                    <img src="images/team/luke.jpg " alt="Luke " style="width:100% ">
+                    <div class='card-header w3-container'>
+                        <h3 class="winered ">Luke Craig</h3>
+                        <p class="w3-opacity ">Audio Engineering</p>
+                        <button class='card-expand'>
+                            <i class="material-icons expand fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="material-icons close fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class='card-inner'>
+                        <div class='card-body w3-container'>
+
+                            <h4>Credits:</h4>
+
+                            <p><a href="https://www.youtube.com/playlist?list=PLlXEkdg3JZEyc02F4pFVwTYTapiUuUqCA" target="_blank">Kevin Max - "Starry Eyes Suprise"</a></p>
+                            <p><a href="https://itunes.apple.com/us/album/hop-heads-ep/id1031378634" target="_blank">Gnarly Parkers - "Hop Heads"</a></p>
+                            <p><a href="http://lukecraig.audio/" target="_blank">Katiee Carney - "While I'm Still Young"</a></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-col m4 w3-margin-bottom cards">
+                <div class="card w3-card-2 w3-light-grey">
+                    <img src="images/team/zachj.png " alt="Zach " style="width:100% ">
+                    <div class='card-header w3-container'>
+                        <h3 class="winered ">Zach Jase Warrington</h3>
+                        <p class="w3-opacity ">Video &amp; Editing</p>
+                        <button class='card-expand'>
+                            <i class="material-icons expand fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="material-icons close fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class='card-inner'>
+                        <div class='card-body w3-container'>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col m4 w3-margin-bottom cards">
+                <div class="card w3-card-2 w3-light-grey">
+                    <img src="images/team/leslied2.jpg" alt="Leslie " style="width:100% ">
+                    <div class='card-header w3-container'>
+                        <h3 class="winered ">Leslie Dorst Garbis</h3>
+                        <p class="w3-opacity ">Vocal Coach</p>
+                        <button class='card-expand'>
+                            <i class="material-icons expand fa fa-arrow-down" aria-hidden="true"></i>
+                            <i class="material-icons close fa fa-arrow-up" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class='card-inner'>
+                        <div class='card-body w3-container'>
+                            <h4>Bio:</h4>
+                            <p>Leslie Dorst Garbis has been featured in dozens of regional productions of theatre, opera, revues and cabaret in the Southeast and on cruise ships, and studio recordings, and has had conducting roles various musical theatre productions and choirs. She is now an adjunct faculty member at Belmont University’s School of Music, teaching private voice majors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Media -->
+        <div class="w3-container" id="media" style="margin-top:75px">
+            <h1 class="w3-xxxlarge winered"><b>Media</b></h1>
+            <hr class="w3-round gradientline">
+            <div class="w3-row">
+                <!-- <div class="w3-col m9 l3">
+                    <span>"Hop Heads"<br> Arranger, Pianist, Producer</span>
+                </div>
+                <div class="w3-col m9 l9 w3-card-2 w3-white" id="player">
+                    <div class="w3-col m3 l3"> <img src=" images/gnarly-parkers.jpg "></div>
+                    <div class="w3-col m3 l3"></div>
+                    <div class="w3-col m2 l2">
+                        <button><a href="https://www.paypal.com/checkoutnow?token=EC-1JW04888S8792453X " target="_blank ">Album $7.50</a></button>
+                    </div>
+                </div> -->
+                <div id="text-and-player" class="w3-row">
+                    <div class="w3-col m3 l3 w3-center w3-container">
+                        <h3>"Hop Heads"</h3>
+                        <h6>Arranger, Pianist, Producer</h6>
+                        <p>Recorded at Creatine Caffeine Studio</p>
+                    </div>
+                    <div id="player" class="w3-col m9 l9 w3-white " style="padding-right:16px;background-clip: content-box;">
+                        <div class="w3-row">
+                            <div id="artwork" class="w3-col m3 l3 w3-panel w3-container">
+                                <div id="jquery_jplayer_1" class="jp-jplayer "></div>
+                            </div>
+                            <div class="w3-col m9 l9 w3-section">
+                                <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                                    <div class="jp-type-playlist">
+                                        <div class="jp-gui jp-interface">
+
+                                            <div id="play-details-buy" class="w3-row">
+                                                <div class="w3-col s3 m2 l2 w3-container">
+                                                    <div class="jp-controls">
+                                                        <button class="jp-play" role="button" tabindex="0"><i class="fa fa-play-circle-o fa-4x" aria-hidden="true"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="w3-col s9 m7 l7  w3-container">
+                                                    <div class="jp-details" style="display:block">
+                                                        <div class="jp-artist w3-col" aria-label="artist">Gnarly Parkers</div>
+                                                        <div class="jp-title w3-col" aria-label="title">&nbsp;</div>
+                                                        <div class="jp-album w3-col" aria-label="album">Hop Heads</div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="w3-col s1 m3 l3 w3-container w3-hide-small">
+                                                    <div>
+                                                        <button class="barkbrown" style="border-style:none">
+                                                            <a class=" w3-small  w3-section" style="text-decoration:none" href="https://www.paypal.com/checkoutnow?token=EC-7012825652897073W" target="_blank"><b>Album $7.50</b></a></button>
+                                                    </div>
+                                                    <div style="display:none">Track $0.99</div>
+                                                </div>
+                                            </div>
+
+                                            <div id="space" class="w3-hide-small">
+                                                <br>
+
+                                            </div>
+                                            <div id="skip-progress-volume" class="w3-row w3-padding-bottom">
+                                                <div class="w3-col m2 l2  w3-container">
+                                                    <div class="jp-controls">
+                                                        <div class="w3-row w3-justify">
+                                                            <div class="w3-col s11 m11 l11">
+                                                                <button class="jp-previous" role="button" tabindex="0"><i class="fa fa-fast-backward" aria-hidden="true"></i></button>
+                                                            </div>
+                                                            <div class="w3-col s1 m1 l1">
+                                                                <button class="jp-next" role="button" tabindex="0"><i class="fa fa-fast-forward" aria-hidden="true"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="w3-col m4 l4  w3-container">
+                                                    <div class="jp-progress">
+                                                        <div class="jp-seek-bar">
+                                                            <div class="jp-play-bar"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w3-col m3 l3   w3-container">
+                                                    <div class="jp-time-holder" style="margin-top:3px">
+                                                        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                                                        <div class="jp-time-division">/</div>
+                                                        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                                                    </div>
+                                                    <div class="jp-toggles">
+                                                        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                                                        <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+                                                    </div>
+                                                </div>
+                                                <div class="w3-col m3 l3 w3-container">
+                                                    <div class="w3-row">
+                                                        <div class="w3-col m1 l1">
+                                                            <div class=" jp-volume-controls ">
+                                                                <button class="jp-mute " role="button " tabindex="0 "><i class="fa fa-volume-off" aria-hidden="true "></i></button>
+                                                            </div>
+                                                            <div class="w3-col m6 l6">
+                                                                <div class="jp-volume-bar">
+                                                                    <div class="jp-volume-bar-value "></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="jp-playlist ">
+                                            <ul>
+                                                <li>&nbsp;</li>
+                                            </ul>
+                                        </div>
+                                        <div class="jp-no-solution ">
+                                            <span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/ " target="_blank ">Flash plugin</a>.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="w3-xlarge winered w3-center "><b>Recent Recordings @ RedWillow Studio.</b></h1>
+            <div class="w3-center ">
+                <div class="w3-row ">
+                    <!--
+                    
+                    <div class="w3-col m6 l6 w3-panel ">
+    <div class="videoWrapper ">
+        <iframe width="385 " height="217 " src="https://www.youtube.com/embed/ebzUKeO_qOs " frameborder="0 " allowfullscreen></iframe>
+    </div>
+</div>
+-->
+
+                    <div class="w3-col m6 l6 w3-panel ">
+                        <div class="videoWrapper ">
+                            <iframe width="385 " height="217 " src="https://www.youtube.com/embed/NiaOUcEc1zg " frameborder="0 " allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="w3-col m6 l6 w3-panel " style="height:264px">
+                        <a href="music/Same%20Old%20Mix%201.mp3"><img style="height:100%" src="images/jennapic1.jpg">
+                            <br>“Same Old” by Jenna Scott</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+
+        <div class="w3-container " id="contact" style="margin-top:75px ">
+            <h1 class="w3-xxxlarge winered "><b>Contact</b></h1>
+            <hr class="w3-round gradientline">
+            <form action="https://formspree.io/will.padgett@gmail.com" method="POST">
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_format" value="plain" />
+                <input type="hidden" name="_next" value="thankyou.html" />
+                <div class="w3-group">
+                    <label>Name</label>
+                    <input class="w3-input w3-border " type="text " name="name " required>
+                </div>
+                <div class="w3-group">
+                    <label>Email</label>
+                    <input class="w3-input w3-border " type="email" name="_replyto " required>
+                </div>
+                <div class="w3-group">
+                    <label>Message</label>
+                    <textarea style="resize: none;" class="w3-input w3-border" name="message" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="w3-btn-block w3-padding-large winered-button w3-margin-bottom ">Send Message</button>
+            </form>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!-- W3.CSS Container -->
+    <div class="w3-black w3-container w3-padding-32 " style="margin-top:75px;padding-right:58px ">
+        <div class="w3-center w3-tiny w3-right ">
+            RedWillow Music LLC © 2017
+        </div>
+    </div>
+
+    <script>
+        // Script to open and close sidenav
+        function w3_open() {
+            document.getElementById("mySidenav").style.display = "block ";
+            document.getElementById("myOverlay").style.display = "block ";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidenav").style.display = "none ";
+            document.getElementById("myOverlay").style.display = "none ";
+        }
+    </script>
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 300);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('.card-header').click(function () {
+                $(this).parent().toggleClass('expanded');
+            });
+
+            var cardHeight = $('.card.expanded').innerHeight();
+            $('.card.expanded .card-inner').css('max-height', cardHeight);
+        });
+    </script>
+</body>
+
+</html>
