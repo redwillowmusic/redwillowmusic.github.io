@@ -216,3 +216,7 @@ hr.gradientline {
 .card-header {
     cursor: pointer;
 }
+
+.text-and-player {
+    padding-bottom: 10px;
+}
