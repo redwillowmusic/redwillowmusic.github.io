@@ -220,3 +220,8 @@ hr.gradientline {
 .text-and-player {
     padding-bottom: 10px;
 }
+
+#play-details-buy b{
+    font-size: 15px;
+    line-height: 2;
+}
